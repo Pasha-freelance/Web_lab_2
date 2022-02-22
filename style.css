@@ -1,0 +1,43 @@
+* {
+    font-family: 'Rowdies', cursive !important;
+}
+body {
+    padding-top: 5%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 93, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    font-size: 55px !important;
+    color: black !important;
+    margin-top: 20px !important;
+}
+
+img {
+    transform: rotate(10deg);
+}
+
+.logo-img {
+    margin-top: 50px;
+    width: 130px;
+    height: 130px;
+}
+
+.btn-block {
+    margin-top: 5%;
+    gap: 15px;
+}
+
+.btn-block .btn {
+    width: 120px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 20px !important;
+    transition: .2s;
+}
+.btn-block .btn:hover {
+    border-color: black;
+    background: transparent;
+}

@@ -1,0 +1,47 @@
+* {
+    font-family: 'Rowdies', cursive !important;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,93,1) 35%, rgba(0,212,255,1) 100%);
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.about-me-card {
+    white-space: nowrap;
+    border-radius: 20px !important;
+    padding: 25px;
+    min-width: 25rem !important;
+}
+
+.wrapper .btn {
+    width: 120px;
+    box-sizing: border-box;
+    background: transparent !important;
+    border: 2px solid transparent;
+    outline: none !important;
+    padding: 10px 20px;
+    font-size: 20px !important;
+    transition: .2s;
+}
+.wrapper .btn:hover {
+    border-color: black;
+    background: transparent;
+}
+
+@media (max-width: 750px) {
+    .about-me-card {
+        min-width: 20rem !important;
+        max-width: 30rem !important;
+        padding: 5px;
+        font-size: 14px;
+        white-space: normal;
+    }
+}

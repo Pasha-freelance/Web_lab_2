@@ -1,0 +1,44 @@
+* {
+  font-family: 'Rowdies', cursive !important;
+}
+
+.form-floating *, .form-floating option {
+  font-weight: 300 !important;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,93,1) 35%, rgba(0,212,255,1) 100%);
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.sign-up-card {
+  width: 30rem;
+  border-radius: 20px !important;
+  padding: 25px;
+}
+
+.sign-up-btn {
+  background: transparent !important;
+  border: 2px solid white !important;
+  outline: none !important;
+  transition: .2s;
+}
+
+.sign-up-btn:hover {
+  color: black !important;
+  background: white !important;
+}
+
+@media (max-width: 750px) {
+  .sign-up-card {
+    width: 20rem;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
