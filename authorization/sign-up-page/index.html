@@ -20,11 +20,11 @@
                 <div class="card-body">
                     <form action="#">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="firstName"  placeholder="First Name">
+                            <input type="text" required class="form-control" id="firstName"  placeholder="First Name">
                             <label for="firstName">First Name</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="lastName"  placeholder="Last Name">
+                            <input type="text" required class="form-control" id="lastName"  placeholder="Last Name">
                             <label for="lastName">Last Name</label>
                         </div>
                         <div class="form-floating mb-3">
@@ -32,12 +32,12 @@
                             <label for="email">Email address</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="password"  placeholder="Password">
+                            <input type="password" required class="form-control" id="password"  placeholder="Password">
                             <label for="password">Password</label>
                         </div>
 
                         <div class="form-floating mb-3" >
-                            <select class="form-select" id="sex">
+                            <select class="form-select" required id="sex">
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                             </select>
@@ -45,13 +45,14 @@
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="date" class="form-control" id="birth_date">
+                            <input type="date" required class="form-control" id="birth_date">
                             <label for="birth_date">Your Birth Date</label>
                         </div>
 
                         <div class="card-footer text-end">
                          <button type="submit" id="sign_up_btn" class="btn btn-primary sign-up-btn">Sign up</button>
                         </div>
+                        <a id="redirectLink" href="../../main/index.html"></a>
                     </form>
                 </div>
             </div>
@@ -59,5 +60,6 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="module" src="js/index.js"></script>
 </body>
 </html>
